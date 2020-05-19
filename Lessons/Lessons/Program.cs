@@ -80,6 +80,16 @@ namespace Lessons
             Console.WriteLine("Enter username:");
             string username = Console.ReadLine();
             Console.WriteLine("Username is: " + username);
+
+
+            // Lesson 7 - C# Operators
+            // ------------------------------------------------------------------------------------------------------------------------------------------------------
+            // Standard Arithmetic Operators (+ - * / % ++ --)
+            // Standard Comparitons Operators ( == != > < >= <=)
+            // Logical Operators
+            // 1.) && (AND) Returns true if both statements are true
+            // 2.) || (OR) Returns true if one of the statements is true
+            // 3.) ! (NOT) Reverse the result, returns false if result is true
         }
     }
 }
