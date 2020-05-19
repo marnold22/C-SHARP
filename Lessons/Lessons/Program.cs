@@ -90,6 +90,16 @@ namespace Lessons
             // 1.) && (AND) Returns true if both statements are true
             // 2.) || (OR) Returns true if one of the statements is true
             // 3.) ! (NOT) Reverse the result, returns false if result is true
+
+
+            // Lesson 8 - C# Math
+            // ------------------------------------------------------------------------------------------------------------------------------------------------------
+            // The Math class has many methods
+            Math.Max(5, 10);    // Returns MAX value of the two values
+            Math.Min(5, 10);    // Returns MIN value of the two values
+            Math.Sqrt(64);      // Returns SQUARE-ROOT of value
+            Math.Abs(-6);       // Returns ABSOLUTE-VALUE of value
+            Math.Round(9.99);   // Returns ROUNDED number to nearest whole number
         }
     }
 }
