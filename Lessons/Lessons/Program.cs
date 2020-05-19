@@ -73,6 +73,13 @@ namespace Lessons
             Console.WriteLine(Convert.ToInt32(l5double));  // convert double to int
             Console.WriteLine(Convert.ToString(l5bool));   // convert bool to string
 
+
+            // Lesson 6 - C# User Input
+            // ------------------------------------------------------------------------------------------------------------------------------------------------------
+            // This uded the ReadLine() function
+            Console.WriteLine("Enter username:");
+            string username = Console.ReadLine();
+            Console.WriteLine("Username is: " + username);
         }
     }
 }
