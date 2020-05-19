@@ -1,0 +1,13 @@
+C:\Users\Micha\Projects\C-SHARP\Lessons\Lessons\bin\Debug\netcoreapp3.1\Lessons.exe
+C:\Users\Micha\Projects\C-SHARP\Lessons\Lessons\bin\Debug\netcoreapp3.1\Lessons.deps.json
+C:\Users\Micha\Projects\C-SHARP\Lessons\Lessons\bin\Debug\netcoreapp3.1\Lessons.runtimeconfig.json
+C:\Users\Micha\Projects\C-SHARP\Lessons\Lessons\bin\Debug\netcoreapp3.1\Lessons.runtimeconfig.dev.json
+C:\Users\Micha\Projects\C-SHARP\Lessons\Lessons\bin\Debug\netcoreapp3.1\Lessons.dll
+C:\Users\Micha\Projects\C-SHARP\Lessons\Lessons\bin\Debug\netcoreapp3.1\Lessons.pdb
+C:\Users\Micha\Projects\C-SHARP\Lessons\Lessons\obj\Debug\netcoreapp3.1\Lessons.csprojAssemblyReference.cache
+C:\Users\Micha\Projects\C-SHARP\Lessons\Lessons\obj\Debug\netcoreapp3.1\Lessons.csproj.CoreCompileInputs.cache
+C:\Users\Micha\Projects\C-SHARP\Lessons\Lessons\obj\Debug\netcoreapp3.1\Lessons.AssemblyInfoInputs.cache
+C:\Users\Micha\Projects\C-SHARP\Lessons\Lessons\obj\Debug\netcoreapp3.1\Lessons.AssemblyInfo.cs
+C:\Users\Micha\Projects\C-SHARP\Lessons\Lessons\obj\Debug\netcoreapp3.1\Lessons.dll
+C:\Users\Micha\Projects\C-SHARP\Lessons\Lessons\obj\Debug\netcoreapp3.1\Lessons.pdb
+C:\Users\Micha\Projects\C-SHARP\Lessons\Lessons\obj\Debug\netcoreapp3.1\Lessons.genruntimeconfig.cache
