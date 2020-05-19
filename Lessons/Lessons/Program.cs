@@ -7,17 +7,20 @@ namespace Lessons
         static void Main(string[] args)
         {
             // Lesson 1 - Hello World
+            // ------------------------------------------------------------------------------------------------------------------------------------------------------
             Console.WriteLine("Hello World!");
             Console.Write("\n");
 
 
             // Lesson 2 - WriteLine() vs Write()
+            // ------------------------------------------------------------------------------------------------------------------------------------------------------
             Console.WriteLine("WriteLine() will print on a new line each time.");
             Console.Write("Write() will print all on the same line. \n");
             Console.Write("\n");
 
 
             // Lesson 3 - Declaring Variables
+            // ------------------------------------------------------------------------------------------------------------------------------------------------------
             string name = "Michael";
             int age = 25;
             double height = 5.7D;
@@ -26,6 +29,7 @@ namespace Lessons
 
 
             // Lesson 4 - C# Data Types
+            // ------------------------------------------------------------------------------------------------------------------------------------------------------
             int l4int = 5;                       // Integer - 4 bytes - Stores whole numbers from -2,147,483,648 to 2,147,483,647
             long l4long = 15000000000L;          // Long - 8 bytes - Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
             float l4float = 5.75F;               // Float - 4 bytes - Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
@@ -42,6 +46,7 @@ namespace Lessons
 
 
             // Lesson 5 - C# Type Casting
+            // ------------------------------------------------------------------------------------------------------------------------------------------------------
             // Type casting is when you assign a value of one data type to another type. In C# there are two types of casting:
             // 1. Implicit Casting (automatically) - converting a smaller type to a larger type size (char -> int -> long -> float -> double)
             // 2. Explicit Casting (manually) - converting a larger type to a smaller size type (double -> float -> long -> int -> char)
