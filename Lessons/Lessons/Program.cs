@@ -173,6 +173,57 @@ namespace Lessons
             string result = (hour < 18) ? "Good day." : "Good evening.";
             Console.WriteLine(result);
 
+
+            // Lesson 11 - C# Switch Statements
+            // ------------------------------------------------------------------------------------------------------------------------------------------------------
+            // BREAK -> keyword it breaks out of the switch block.
+            // DEFAULT -> keyword is optional and specifies some code to run if there is no case match:
+            /*
+           
+            switch(expression) 
+            {
+                case x:
+                // code block
+                break;
+                case y:
+                // code block
+                break;
+                default:
+                // code block
+                break;
+            }
+             
+            */
+
+            // In this example because the day is 3 the result will be "Wednesday"
+            int day = 3;
+            switch (day)
+            {
+                case 1:
+                    Console.WriteLine("Monday");
+                    break;
+                case 2:
+                    Console.WriteLine("Tuesday");
+                    break;
+                case 3:
+                    Console.WriteLine("Wednesday");
+                    break;
+                case 4:
+                    Console.WriteLine("Thursday");
+                    break;
+                case 5:
+                    Console.WriteLine("Friday");
+                    break;
+                case 6:
+                    Console.WriteLine("Saturday");
+                    break;
+                case 7:
+                    Console.WriteLine("Sunday");
+                    break;
+                default:
+                    Console.WriteLine("Looking forward to the Weekend.");
+                    break;
+            }
         }
     }
 }
