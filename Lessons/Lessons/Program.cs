@@ -265,6 +265,42 @@ namespace Lessons
             while (k < 5);
 
 
+            // Lesson 13 - C# For Loops
+            // ------------------------------------------------------------------------------------------------------------------------------------------------------
+            /*
+            
+                for (statement 1; statement 2; statement 3) 
+                {
+                  // code block to be executed
+                }
+
+            Statement 1 is executed (one time) before the execution of the code block.
+            Statement 2 defines the condition for executing the code block.
+            Statement 3 is executed (every time) after the code block has been executed.
+            */
+            for (int p = 0; p < 5; p++)
+            {
+                Console.WriteLine(p);
+            }
+
+            /*
+             * Foreach loop, which is used exclusively to loop through elements in an array
+            
+                foreach (type variableName in arrayName) 
+                {
+                    // code block to be executed
+                }
+
+            */
+            string[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
+            foreach (string c in cars)
+            {
+                Console.WriteLine(c);
+            }
+
+
+
+
         }
     }
 }
