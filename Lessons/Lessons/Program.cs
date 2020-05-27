@@ -77,9 +77,9 @@ namespace Lessons
             // Lesson 6 - C# User Input
             // ------------------------------------------------------------------------------------------------------------------------------------------------------
             // This uded the ReadLine() function
-            Console.WriteLine("Enter username:");
+            /*Console.WriteLine("Enter username:");
             string username = Console.ReadLine();
-            Console.WriteLine("Username is: " + username);
+            Console.WriteLine("Username is: " + username);*/
 
 
             // Lesson 7 - C# Operators
@@ -100,6 +100,41 @@ namespace Lessons
             Math.Sqrt(64);      // Returns SQUARE-ROOT of value
             Math.Abs(-6);       // Returns ABSOLUTE-VALUE of value
             Math.Round(9.99);   // Returns ROUNDED number to nearest whole number
+
+
+            // Lesson 9 - C# Strings
+            // ------------------------------------------------------------------------------------------------------------------------------------------------------
+            string txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            string fname = "Michael";
+            string lname = "Arnold";
+            string fullName = string.Concat(fname, lname);                          // Concatinate two strings into one
+            Console.WriteLine("The length of the txt string is: " + txt.Length);    // .length returns numeric value
+            Console.WriteLine(fname.ToUpper());                                     // ToUpper -> upercase
+            Console.WriteLine(fname.ToLower());                                     // ToLower -> lowercase
+            Console.WriteLine(fullName);
+
+            // String Interpolation
+            string movie = "Starwars";
+            string producer = "George Lucas";
+            string sentence = $"The movie {movie} was produced by {producer}";      // String interpolation, which substitutes values of variables into placeholders in a string
+            Console.WriteLine(sentence);
+
+            // Access Strings
+            string l9String = "Hello World";
+            Console.WriteLine(l9String[0]);                     // Accesses the first value in the string "H"
+            Console.WriteLine(l9String.IndexOf("W"));           // Find the index position of specified value "W" -> 6th position
+
+            // Special Characters
+            // \' -> escape character for SINGLE QUOTE
+            // \" -> escape character for DOUBLE QUOTE
+            // \\ -> escape character for BACKSLASH
+            // \n -> NEW LINE
+            // \t -> TAB
+            // \b -> BACLSPACE
+            string slogan = "We are the so-called \"Vikings\" from the north.";         // The  \" allows for "" to be in string
+
+
+
         }
     }
 }
