@@ -132,8 +132,46 @@ namespace Lessons
             // \t -> TAB
             // \b -> BACLSPACE
             string slogan = "We are the so-called \"Vikings\" from the north.";         // The  \" allows for "" to be in string
+            Console.WriteLine(slogan);
 
+            // Lesson 10 - C# If...Else
+            // ------------------------------------------------------------------------------------------------------------------------------------------------------
+            /*
+                    if (condition 1)
+                    {
+                        block of code that will be executed if condition 1 is TRUE
+                    }
+                    else if (condition 2)
+                    {
+                        block of code that will be executed if condition 1 is FLASE and condition 2 is TRUE
+                    }
+                    else
+                    {
+                        block of code that will be executed if condition 1 and condition 2 are both FALSE
+                    }
+            */
 
+            // This example will be false for both condition 1 & condition 2 so it will execute the else statement "Good Evening"
+            int time = 22;
+            if (time < 10)
+            {
+                Console.WriteLine("Good morning.");
+            }
+            else if (time < 20)
+            {
+                Console.WriteLine("Good day.");
+            }
+            else
+            {
+                Console.WriteLine("Good evening.");
+            }
+
+            // Ternary operator (short hand)
+            // variable = (condition) ? expressionTrue : expressionFalse;
+            // This example will execute "Good Evening"
+            int hour = 20;
+            string result = (hour < 18) ? "Good day." : "Good evening.";
+            Console.WriteLine(result);
 
         }
     }
