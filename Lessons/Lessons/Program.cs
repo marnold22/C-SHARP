@@ -299,7 +299,37 @@ namespace Lessons
             }
 
 
+            // Lesson 13 - C# Break & Continue
+            // ------------------------------------------------------------------------------------------------------------------------------------------------------
+            // The break statement can also be used to jump out of a loop.
 
+            // Break Example
+            // In this example you will break out of the loop once z=4
+            int z = 0;
+            while (z < 10)
+            {
+                Console.WriteLine(z);
+                z++;
+                if (z == 4)
+                {
+                    break;
+                }
+            }
+
+            // Continue Example
+            // In this example once j=4 it will j++ then continue to print line which will be one value ahead and then increment j again
+            // Output looks like this 0 1 2 3 5 6 7 8 9 ** Notice it skipped "4"
+            int j = 0;
+            while (j < 10)
+            {
+                if (j == 4)
+                {
+                    j++;
+                    continue;
+                }
+                Console.WriteLine(j);
+                j++;
+            }
 
         }
     }
