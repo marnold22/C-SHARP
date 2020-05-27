@@ -137,18 +137,20 @@ namespace Lessons
             // Lesson 10 - C# If...Else
             // ------------------------------------------------------------------------------------------------------------------------------------------------------
             /*
-                    if (condition 1)
-                    {
-                        block of code that will be executed if condition 1 is TRUE
-                    }
-                    else if (condition 2)
-                    {
-                        block of code that will be executed if condition 1 is FLASE and condition 2 is TRUE
-                    }
-                    else
-                    {
-                        block of code that will be executed if condition 1 and condition 2 are both FALSE
-                    }
+             * 
+                if (condition 1)
+                {
+                    block of code that will be executed if condition 1 is TRUE
+                }
+                else if (condition 2)
+                {
+                    block of code that will be executed if condition 1 is FLASE and condition 2 is TRUE
+                }
+                else
+                {
+                    block of code that will be executed if condition 1 and condition 2 are both FALSE
+                }
+
             */
 
             // This example will be false for both condition 1 & condition 2 so it will execute the else statement "Good Evening"
@@ -180,18 +182,18 @@ namespace Lessons
             // DEFAULT -> keyword is optional and specifies some code to run if there is no case match:
             /*
            
-            switch(expression) 
-            {
-                case x:
-                // code block
-                break;
-                case y:
-                // code block
-                break;
-                default:
-                // code block
-                break;
-            }
+                switch(expression) 
+                {
+                    case x:
+                    // code block
+                    break;
+                    case y:
+                    // code block
+                    break;
+                    default:
+                    // code block
+                    break;
+                }
              
             */
 
@@ -224,6 +226,45 @@ namespace Lessons
                     Console.WriteLine("Looking forward to the Weekend.");
                     break;
             }
+
+
+            // Lesson 12 - C# While Loops
+            // ------------------------------------------------------------------------------------------------------------------------------------------------------
+            /*
+             * The while loop loops through a block of code as long as a specified condition is True
+
+                while (condition) 
+                {
+                    // code block to be executed
+                }
+
+            */
+            int i = 0;
+            while (i < 5)
+            {
+                Console.WriteLine(i);
+                i++;
+            }
+
+            /*
+             * The do/while loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true.
+
+                do 
+                {
+                    // code block to be executed
+                }
+                while (condition)
+
+            */
+            int k = 0;
+            do
+            {
+                Console.WriteLine(k);
+                k++;
+            }
+            while (k < 5);
+
+
         }
     }
 }
