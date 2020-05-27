@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace Lessons
 {
@@ -331,6 +332,71 @@ namespace Lessons
                 j++;
             }
 
+
+            // Lesson 14 - C# Arrays
+            // ------------------------------------------------------------------------------------------------------------------------------------------------------
+            // To declare an array, define the variable type with square brackets []
+
+            string[] motorcycles = { "Kawasaki", "Ducati", "Honda", "Aprilla"};
+            Console.WriteLine(motorcycles[0]);                                      // This will access the first array element "Kawasaki"
+
+            // Change an array element
+            motorcycles[2] = "Harley";                                              // This will replace the 3rd item in the array from Honda -> Harley
+
+            // Loop through array
+            for (int m = 0; m < motorcycles.Length; m++)
+            {
+                Console.WriteLine(motorcycles[m]);
+            }
+
+            // Or you can use Foreach
+            foreach(string m in motorcycles)
+            {
+                Console.WriteLine(m);
+            }
+
+            // Sort Arrays
+            Array.Sort(motorcycles);            // This will sort motorcycles alphabetically
+            foreach (string m in motorcycles)
+            {
+                Console.WriteLine(m);
+            }
+
+            // System.Linq Namespace
+            // This namespace gives us access to useful array methods such as Min, Max, Sum
+            // Need to add these lines above namespace of current application
+            /*
+                using System;
+                using System.Linq;
+            */
+            int[] numArray = { 2, 4, 7, 9, 5, 6 };
+            Console.WriteLine(numArray.Max());      // Returns largest value in array "9"
+            Console.WriteLine(numArray.Min());      // Returns smallest value in array "2"
+            Console.WriteLine(numArray.Sum());      // Returns sum of array elements
+
+            // Otherways to create arrays
+            /*
+                // Create an array of four elements, and add values later
+                string[] cars = new string[4];
+
+                // Create an array of four elements and add values right away 
+                string[] cars = new string[4] {"Volvo", "BMW", "Ford", "Mazda"};
+
+                // Create an array of four elements without specifying the size 
+                string[] cars = new string[] {"Volvo", "BMW", "Ford", "Mazda"};
+
+                // Create an array of four elements, omitting the new keyword, and without specifying the size
+                string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+
+                // Declare an array
+                string[] cars;
+
+                // Add values, using new
+                cars = new string[] {"Volvo", "BMW", "Ford"};
+
+                // Add values without using new (this will cause an error)
+                cars = {"Volvo", "BMW", "Ford"}
+            */
         }
     }
 }
